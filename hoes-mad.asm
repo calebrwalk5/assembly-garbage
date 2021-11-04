@@ -9,5 +9,13 @@ section .data
   
   section .text
             _start:
-            ; code goes here
+            
+            mov         edx, strLen
+            mov         ecx, str
+            mov         ebx, 1
+            mov         eax, 4
+            int 0x80
+            
+            mov         ebx, 0
+            mov         eax, 1
             int 0x80
