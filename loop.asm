@@ -21,7 +21,7 @@ Loop:
    inc eax
    add eax, '0'
    pop ecx
-   loop l1
+   loop Loop
 	
    mov eax, 1
    int 0x80
