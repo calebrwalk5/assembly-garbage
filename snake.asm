@@ -153,7 +153,7 @@ timer:
 		jne $+42
 		mov bx, fpos
 		mov map(bx), EMPTY
-		call random
+		call psuedorandom
 		mov bx, ax
 		and bx, 1023
 		cmp map(bx), EMPTY
