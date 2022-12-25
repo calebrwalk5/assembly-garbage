@@ -1,3 +1,4 @@
+; x86 assembly code for Grandpa, from Caleb
 message db "Merry Christmas, Grandpa!", 0
 
 mov ah, 0x0e  
